@@ -1,7 +1,7 @@
 # Automatic Attendence Form
 # First created on 1/26/2021 on ChromeDriver 86, program worked as of 2/24/2021 using ChromeDriver 86, current code 3/31/2021 on ChromeDriver 88 with some cleanup code to make it more readable
 # Description: Program opens Chrome, signs in to Google and RapidIdentity account (my school used both), and autofills out google form sheet that had {firstname, lastname, studentID, classperiod, buttonyesIampresent}. 
-# This program is definitely outdated and not really mass-producible, it's using chromedriver88 and solves a niche problem I had in my senior year of high school which can't really translate unless you massively change the code.
+# This program is definitely outdated and not really mass-producible, it's using chromedriver88 and solves a niche problem I had in my senior year of high school.
 
 # So how this happened was when our school was starting under COVID, these Google attendence forms were their way of tracking attendence. It was a tedious process since you had to click the link, type in the same information, and do it again for however many classes you had.
 # Basically I made this because I got tired of spending 3 minutes going through the attendence forms, so I made this program to do it in 30 seconds.
