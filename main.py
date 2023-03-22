@@ -3,7 +3,7 @@
 # Description: Program opens Chrome, signs in to Google and RapidIdentity account (my school used both), and autofills out google form sheet that had {firstname, lastname, studentID, classperiod, buttonyesIampresent}. 
 # This program is definitely outdated and not really mass-producible, it's using chromedriver88 and solves a niche problem I had in my senior year of high school.
 
-# So how this happened was when our school was starting under COVID, these Google attendence forms were their way of tracking attendence. It was a tedious process since you had to click the link, type in the same information, and do it again for however many classes you had.
+# So how this happened was when my school was starting under COVID, Google attendence forms were their way of tracking attendence. It was a tedious process since you had to click the form link, type in the same information, and do it again for however many classes you had.
 # Basically I made this because I got tired of spending 3 minutes going through the attendence forms, so I made this program to do it in 30 seconds.
 # Took me like a month to finish it tho. Uses Python Selenium, Python 2.7, Chromedriver 88. 
 # Python 3 does not work for this, only 2.7
@@ -19,6 +19,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 def sleep():
     time.sleep(1.3)
 
+#change to wherever your latest chromedriver is located in your computer
 browser = webdriver.Chrome('/Users/dan/Downloads/chromedriver_88')
 
 try:
